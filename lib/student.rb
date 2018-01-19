@@ -53,4 +53,12 @@ class Student
     student = self.new(row[1], row[2])
     student
   end
+
+  def self.find_by_name
+
+  end
+
+  def update
+
+  end
 end
