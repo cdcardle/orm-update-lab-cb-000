@@ -61,7 +61,7 @@ class Student
     WHERE name = ?
     SQL
 
-    DB[:conn].execute(sql).map {|row| self.new_from_db(row)}
+    DB[:conn].execute(sql, name).map {|row| self.new_from_db(row)}
     student
   end
 
