@@ -22,6 +22,6 @@ class Student
   end
 
   def method_name
-    
+
   end
 end
